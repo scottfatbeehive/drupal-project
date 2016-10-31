@@ -96,7 +96,9 @@
         "jcalderonzumba/mink-phantomjs-driver": "~0.3.1",
         "mikey179/vfsStream": "~1.2",
         "phpunit/phpunit": "~4.8",
-        "symfony/css-selector": "~2.8"
+        "symfony/css-selector": "~2.8",
+        "fatbeehive/fb-drupal8-modules1": "0.1.0",
+        "fatbeehive/fb-drupal8-installation-profile": "0.1.0"
     },
     "conflict": {
         "drupal/drupal": "*"
