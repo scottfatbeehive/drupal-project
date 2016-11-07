@@ -14,7 +14,7 @@
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         },
-        "fb-modules": {
+        {
             "type": "package",
             "package": {
                 "name": "fatbeehive/fb-drupal8-modules1",
@@ -27,7 +27,7 @@
                 }
             }
         },
-        "fb-installation-profile": {
+        {
             "type": "package",
             "package": {
                 "name": "fatbeehive/fb-drupal8-installation-profile",
