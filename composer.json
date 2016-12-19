@@ -18,7 +18,7 @@
             "type": "package",
             "package": {
                 "name": "fatbeehive/fb-drupal8-modules1",
-                "version": "0.1.0",
+                "version": "dev-master",
                 "type": "package",
                 "source": {
                     "url": "git@bitbucket.org:fatbeehive/fb-drupal8-modules1.git",
@@ -31,7 +31,7 @@
             "type": "package",
             "package": {
                 "name": "fatbeehive/fb-drupal8-installation-profile",
-                "version": "0.1.0",
+                "version": "dev-master",
                 "type": "package",
                 "source": {
                     "url": "git@bitbucket.org:fatbeehive/fb-drupal8-installation-profile.git",
@@ -91,7 +91,8 @@
         "drupal/contact_emails": "^1.0",
         "drupal/simple_user_management": "^1.0",
         "drupal/site_settings": "^1.0",
-        "drupal/chosen": "^2.0"
+        "drupal/chosen": "^2.0",
+        "drupal/menu_admin_per_menu": "^1.0"
     },
     "require-dev": {
         "behat/mink": "~1.7",
@@ -101,8 +102,8 @@
         "mikey179/vfsStream": "~1.2",
         "phpunit/phpunit": "~4.8",
         "symfony/css-selector": "~2.8",
-        "fatbeehive/fb-drupal8-modules1": "0.1.0",
-        "fatbeehive/fb-drupal8-installation-profile": "0.1.0"
+        "fatbeehive/fb-drupal8-modules1": "dev-master",
+        "fatbeehive/fb-drupal8-installation-profile": "dev-master"
     },
     "conflict": {
         "drupal/drupal": "*"
