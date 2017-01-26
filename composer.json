@@ -39,6 +39,10 @@
                     "reference": "master"
                 }
             }
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/previousnext/drush_cmi_tools"
         }
     ],
     "require": {
@@ -47,6 +51,7 @@
         "cweagans/composer-patches": "~1.0",
         "drupal/core": "~8.0",
         "drush/drush": "^8.1",
+        "drupal/drush-cmi-tools": "dev-8.x-1.x",
         "drupal/console": "~1.0",
         "drupal/config_update": "^1.2",
         "drupal/eu_cookie_compliance": "^1.0",
