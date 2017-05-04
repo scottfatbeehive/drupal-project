@@ -77,7 +77,6 @@
         "drupal/google_analytics": "^2.1",
         "drupal/workbench": "^1.0",
         "drupal/devel": "^1.0@RC",
-        "drupal/webprofiler": "^2.0",
         "drupal/honeypot": "^1.23",
         "drupal/token": "^1.0",
         "drupal/pathauto": "^1.0",
