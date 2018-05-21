@@ -47,12 +47,13 @@
     ],
     "require": {
         "composer/installers": "^1.2",
+        "cweagans/composer-patches": "^1.6",
         "drupal-composer/drupal-scaffold": "^2.2",
-        "cweagans/composer-patches": "~1.0",
-        "drupal/core": "~8.0",
-        "drush/drush": "^9.1",
-        "drupal/drush-cmi-tools": "dev-8.x-1.x",
-        "drupal/console": "~1.0",
+        "drupal/console": "^1.0.2",
+        "drupal/core": "~8.5.3",
+        "drush/drush": "^9.0.0",
+        "vlucas/phpdotenv": "^2.4",
+        "webmozart/path-util": "^2.3",
         "drupal/config_update": "^1.2",
         "drupal/eu_cookie_compliance": "^1.0",
         "drupal/config_readonly": "^1.0",
@@ -76,7 +77,7 @@
         "drupal/role_delegation": "^1.0",
         "drupal/google_analytics": "^2.1",
         "drupal/workbench": "^1.0",
-        "drupal/devel": "^1.0@RC",
+        "drupal/devel": "^1.0",
         "drupal/honeypot": "^1.23",
         "drupal/token": "^1.0",
         "drupal/pathauto": "^1.0",
@@ -99,25 +100,23 @@
         "drupal/menu_admin_per_menu": "^1.0"
     },
     "require-dev": {
-        "behat/mink": "~1.7",
-        "behat/mink-goutte-driver": "~1.2",
-        "jcalderonzumba/gastonjs": "~1.0.2",
-        "jcalderonzumba/mink-phantomjs-driver": "~0.3.1",
-        "mikey179/vfsStream": "~1.2",
-        "phpunit/phpunit": "~4.8",
-        "symfony/css-selector": "~2.8",
         "fatbeehive/fb-drupal8-modules1": "dev-master",
-        "fatbeehive/fb-drupal8-installation-profile": "dev-master"
+        "fatbeehive/fb-drupal8-installation-profile": "dev-master",
+        "webflo/drupal-core-require-dev": "~8.5.3"
     },
     "conflict": {
         "drupal/drupal": "*"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    },
     "autoload": {
         "classmap": [
             "scripts/composer/ScriptHandler.php"
-        ]
+        ],
+        "files": ["load.environment.php"]
     },
     "scripts": {
         "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
